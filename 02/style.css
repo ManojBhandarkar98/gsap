@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+width: 100%;
+height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  
+}
+#nav{
+    height: 50px;
+    padding: 50px;
+    display: flex;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav2{
+    display: flex;
+    gap: 100px;
+}
+#nav h3{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+#main h1{
+    color: white;
+    font-size: 150px;
+    text-transform: uppercase;
+    padding: 80px;
+    font-weight: 400;
+    line-height: 0px;
+    margin-left: 5%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+#main h1:nth-child(2){
+    margin-top: 150px;
+    text-align: left;
+}
+#main h1:nth-child(3){
+    text-align: start;
+    margin-left: 200PX;
+}
+#main h1:nth-child(4){
+    text-align: end;
+}
+
+img{
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+#img1{
+    rotate: 30deg;
+    }
+#img2{
+rotate: 20deg;
+}
+#img3{
+    rotate: 10deg;
+}
