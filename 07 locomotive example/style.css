@@ -10,22 +10,22 @@ height: 100%;
 
 #main{
     width: 100%;
-    background-color: rgb(154, 217, 232);
+    /* background-color: rgb(154, 217, 232); */
 }
 #page1{
     height: 100vh;
     width: 100%;
-    background-color: rgb(211, 153, 36);
+    /* background-color: rgb(211, 153, 36); */
 }
 #page2{
     height: 100vh;
     width: 100%;
-    background-color: rgb(37, 197, 93);
+    /* background-color: rgb(37, 197, 93); */
 }
 #page3{
     height: 100vh;
     width: 100%;
-    background-color: rgb(72, 19, 137);
+    /* background-color: rgb(72, 19, 137); */
 }
 #page2 #image-div{
     height: 100%;
