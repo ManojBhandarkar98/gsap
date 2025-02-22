@@ -1,4 +1,4 @@
-function locomotive(){
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -29,11 +29,9 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 // after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
 ScrollTrigger.refresh();
 
-}
 
 
 
-function textSpliting(){
   //multiple line splitting
   var allh1 = document.querySelectorAll("#page2 h1");
 
@@ -46,16 +44,16 @@ function textSpliting(){
     })
     ele.innerHTML = clutter;
   })
-}
+
 //single line split kia
 // var h1 = document.querySelector("#firsth1").textContent;
 // var splited = h1.split("");
 // var clutter = "";
 // splited.forEach(function (ele) {
-//   clutter += `<span>${ele}</span>`;
+  //  clutter += `<span>${ele}</span>`;
 // });
 // document.querySelector("#firsth1").innerHTML = clutter;
-function gsapAnimation(){
+
   gsap.to("#page2 h1 span", {
     color: "#E3E3C4",
     stagger: 0.1,
@@ -68,8 +66,5 @@ function gsapAnimation(){
       scrub: 5,
     },
   });
-}
 
-locomotive();
-textSpliting();
-gsapAnimation();
+
